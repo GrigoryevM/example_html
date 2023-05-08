@@ -1,0 +1,79 @@
+@keyframes color{
+    0% {background: #845EC2;}
+    25% {background: #2C73D2;}
+    50% {background: #0081CF;}
+    75% {background: #0089BA;}
+    100% {background: #845EC2;}
+}
+body{
+    background: #845EC2;
+    animation: color 10s infinite linear;
+}
+.img-solar-system{
+    width: 100%;
+    height: 300px;
+}
+.text-welcome{
+    padding-top: 30px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 10px;
+}
+.text-portfolio{
+    padding-top: 40px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image{
+    width: 31%;
+    height: 230px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.text-modern{
+    padding-top: 40px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
+.info-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.info-block-text{
+    width: 49%;
+    box-sizing: border-box;
+}
+.info-block-img{
+    box-sizing: border-box;
+    width: 49%;
+}
+.action-block{
+    margin-bottom: 30px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.box-text{
+    box-sizing: border-box;
+    width: 70%;
+}
+.box-button{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 70px;
+    border: 1px solid gray;
+    margin: 10px;
+    color: black;
+}
+.info-block-bootstrap{
+    font-weight: bold;
+}
