@@ -1,0 +1,30 @@
+@media screen and (max-width:1440px){
+    .portfolio-image{
+        width: 25%;
+    }
+}
+@media screen and (max-width:1200px){
+    .portfolio-image{
+        width: 25%;
+    }
+}
+@media screen and (max-width:1000px){
+    .portfolio-image{
+        width: 25%;
+    }
+}
+@media screen and (max-width:990px){
+    .portfolio-image{
+        width: 33%;
+    }
+}
+@media screen and (max-width:770px){
+    .portfolio-image{
+        width: 50%;
+    }
+}
+@media screen and (max-width:540px){
+    .portfolio-image{
+        width: 100%;
+    }
+}
