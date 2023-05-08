@@ -1,2 +1,2 @@
 # example_html
-созданные мою страниц c применением html, css, bootstrap
+созданные мною страницы c применением html, css, bootstrap
