@@ -1,0 +1,226 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: #2b616d;
+    background-image: url("../images/main-pic.png");
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1170px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+.header{
+    width: auto;
+    height: 70px;
+    background-color: #204b52;
+    opacity: .9;
+}
+.header-caption{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-top: 20px;
+}
+.header-menu{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 680px;
+}
+.header-menu-link{
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 50px;
+    color: white;
+}
+.promo-block{
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 180px;
+    color: white;
+}
+.promo-block-title{
+    font-size: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.promo-block-text{
+    font-size: 31px;
+    text-transform: uppercase;
+}
+.promo-block-button{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid white;
+}
+.tomato{
+    background-color: tomato;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: lightseagreen;
+}
+.purple{
+    background-color: mediumpurple;
+}
+.card{
+    width: 550px;
+    padding: 45px 15px 60px;
+}
+.main-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-title,.card-text{
+    text-align: center;
+    color: white;
+}
+.card-title{
+    font-size: 29px;
+    text-transform: uppercase;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.card-link{
+    text-decoration: none;
+}
+.card::before{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: white;
+    border-radius: 50%;
+    background-position: center;
+}
+.tomato::before{
+    background-image: url("../icons/ic-chat.png");
+}
+.orange::before{
+    background-image: url("../icons/ic-pencil.png");
+}
+.green::before{
+    background-image: url("../icons/ic-crown.png");
+}
+.purple::before{
+    background-image: url("../icons/ic-user.png");
+}
+.preview-title,.preview-text{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.preview-title{
+    font-size: 29px;
+    padding-top: 70px;
+    margin: 15px;
+}
+.preview-text{
+    width:80%; 
+    text-align:center; 
+    border-bottom: 1px solid #72abb5; 
+    line-height:0.1em; 
+    margin:10px 0 20px;
+    font-size: 21px;
+}
+span{
+    background: #2b616d;
+}
+.preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-top: 77px;
+}
+.preview-card{
+    width: 350px;
+    text-align: center;
+    padding: 30px 10px 52px;
+}
+.preview-describe{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 22px;
+}
+.preview-link{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.preview-button{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+}
+.smile{
+    background-color: #204b52;
+    border-top: 8px solid tomato;
+}
+.glasses{
+    background-color: #204b52;
+    border-top: 8px solid orange;
+}
+.eye{
+    background-color: #204b52;
+    border-top: 8px solid lightseagreen;
+}
+.tomato-button{
+    background-color: tomato;
+}
+.orange-button{
+    background-color: orange;
+}
+.green-button{
+    background-color: lightseagreen;
+}
+.preview-card::before{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+.smile::before{
+    background-image: url(../images/photo-1.jpg);
+}
+.glasses::before{
+    background-image: url(../images/photo-2.jpg);
+}
+.eye::before{
+    background-image: url(../images/photo-3.jpg);
+}
+.footer{
+    width: auto;
+    background-color: #204b52;
+    height: 70px;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding-top: 27px;
+}
+.footer-link{
+    text-decoration: none;
+    color: goldenrod;
+}
